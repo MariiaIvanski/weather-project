@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(244, 244, 244);
+  font-family: "Merriweather", serif;
+}
+.container {
+  display: flex;
+}
+
+.card {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-control {
+  box-shadow: inset 0px 0px 10px 0px rgb(244, 244, 244);
+}
+
+h1 {
+  font-weight: 700;
+  text-align: center;
+  color: rgb(105, 131, 170);
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(133, 102, 170);
+}
+a:hover,
+a:active,
+a:focus {
+  color: blue;
+}
+
+i {
+  color: rgb(142, 198, 197);
+  font-size: 50px;
+}
+
+.city-temperature {
+  text-align: left;
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(105, 131, 170);
+}
+.cels-fahr {
+  text-align: left;
+  vertical-align: 25px;
+  font-size: 15px;
+  position: sticky;
+}
+
+img {
+  height: 200px;
+  object-fit: scale-down;
+}
+
+.day {
+  color: rgb(133, 102, 170);
+  background: rgb(244, 244, 244);
+}
+.day,
+.weather-explain,
+.temperature {
+  padding-top: 12px;
+}
+
+.weather-explain {
+  color: #6c757d;
+  font-style: italic;
+}
+
+.more-details {
+  font-size: small;
+  position: relative;
+  bottom: 5px;
+}
